@@ -1,0 +1,15 @@
+{
+  "name": "akcaf",
+  "version": "1.0.0",
+  "description": "The new and redesigned AKCAF website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Asutosh Variar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2"
+  }
+}
