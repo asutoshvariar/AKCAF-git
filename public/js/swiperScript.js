@@ -3,21 +3,22 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     a11y: true,
     cssMode: true,
-    allowTouchMove: true,
+    allowTouchMove: false,
     freeMode: false,
     centeredSlides: true,
     autoplay: {
       delay: 4000,
     },
+    autoHeight: true,
   
     // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
+    // pagination: {
+    //   el: '.swiper-pagination',
+    // },
   
     // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+    // navigation: {
+    //   nextEl: '.swiper-button-next',
+    //   prevEl: '.swiper-button-prev',
+    // },
 });

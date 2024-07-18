@@ -10,16 +10,19 @@ body {
 
 .swiper {
     width: 100%;
-    height: auto;
-    padding-top: 2%;
-    margin-bottom: 200;
+    max-height: 80vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .swiper-slide {
-    display: flex;
-    background-position: center;
-    background-size: cover;
-    height: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.swiper .swiper-slide {
+    height: auto;
+    line-height: auto;
 }
 
 nav.navbar.fixed-top {
@@ -38,4 +41,12 @@ nav.navbar.fixed-top {
     height: auto;
     object-fit: cover;
     object-position: center center;
+}
+
+.members {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    text-align: center;
+    align-content: center;
 }
