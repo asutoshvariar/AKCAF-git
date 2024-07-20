@@ -10,7 +10,7 @@ body {
 
 .swiper {
     width: 100%;
-    max-height: auto;
+    height: auto;
     overflow-y: hidden;
     overflow-x: hidden;
 }
